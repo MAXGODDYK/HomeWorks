@@ -1,18 +1,2 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-Console.WriteLine("Hello, World!");
-
-
-Console.WriteLine("Hello, World!");
-
-Console.WriteLine("Hello, World!");
-
-
-int number = 42;
-
-int anotherNumber = 100;
-
-int suma = anotherNumber - number;
-
-Console.WriteLine(anotherNumber + "-" + number + "=" + suma);
+Console.WriteLine("$$$_____$$$$$$$_$$$$$$$_$$$_______$$$_$$$$$$$$$$\r\n\r\n$$$____$$$____$$$____$$$_$$$_____$$$__$$$_______\r\n\r\n$$$____$$$_____$_____$$$_$$$_____$$$__$$$_______\r\n\r\n$$$_____$$$_________$$$___$$$___$$$___$$$$$$$$__\r\n\r\n$$$______$$$_______$$$_____$$$_$$$____$$$_______\r\n\r\n$$$_______$$$_____$$$______$$$_$$$____$$$_______\r\n\r\n$$$$$$$$$___$$$$$$$_________$$$$$_____$$$$$$$$$$");
