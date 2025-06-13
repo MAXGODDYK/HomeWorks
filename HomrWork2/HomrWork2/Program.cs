@@ -21,7 +21,16 @@ int[] faifthMas = new int[5];
 for (int i = 0; i < 5; i++) 
 {
     Console.Write($"Введите {i + 1} элемент массива: ");
-    faifthMas[i] = int.Parse(Console.ReadLine()!);
+    string strfaifthMas = Console.ReadLine();
+    if (int.TryParse(strfaifthMas, out int val))
+    {
+        faifthMas[i] = val;
+    }
+    else
+    {
+        Console.WriteLine("Ошибка ввода, введите число.");
+        i--; // Повторяем итерацию для текущего индекса
+    }
 }
 Console.WriteLine("Вывод массива: ");
 for (int i = 0; i < 5; i++)
